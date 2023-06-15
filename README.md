@@ -6,8 +6,10 @@
 - Create Python environment\
 `conda create -n env_name python=3.10`\
 `conda activate env_name`
-- Create Python environment\
+- Install required packages for production\
 `pip install -r .\path_to_requirements\requirements.txt`
+- Install required packages for developement\
+`pip install -r .\path_to_requirements\requirements-dev.txt`
 - Create your own OPENAI KEY and add to .env.local
 - Run app on terminal
 `streamlit run 0_🏠_Home.py`
