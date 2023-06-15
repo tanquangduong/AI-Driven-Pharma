@@ -14,7 +14,7 @@ pharmaGPT_logo = Image.open("./figs/AI-In-Pharma.png")
 st.set_page_config(page_title="AI in Pharma", page_icon="🚀", layout="centered")
 st.sidebar.image(company_logo, use_column_width=True)
 st.sidebar.markdown(
-    "<h1 style='text-align: center; color: grey;'> Dr. Quang T. Duong </h1>",
+    "<h1 style='text-align: center; color: grey;'> Dr. Tan Quang Duong </h1>",
     unsafe_allow_html=True,
 )
 # st.sidebar.write('**(R) Dr. Quang T. Duong**')
