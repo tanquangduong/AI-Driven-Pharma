@@ -1,4 +1,4 @@
-# PharmaGPT
+# AI driven Pharma
 :tada:  Build AI-driven NLP application for pharmaceutical industry
 
 
