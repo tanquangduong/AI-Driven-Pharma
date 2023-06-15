@@ -8,9 +8,8 @@
 `conda activate env_name`
 - Create Python environment\
 `pip install -r .\path_to_requirements\requirements.txt`
-- Run *.py in Pycharm with Interpreter Option:\
-`-m streamlit run`
-or on terminal
+- Create your own OPENAI KEY and add to .env.local in 'aipharma' package
+- Run app on terminal
 `streamlit run 0_🏠_Home.py`
 
 ## Build and run Docker image
