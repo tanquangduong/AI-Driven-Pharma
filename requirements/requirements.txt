@@ -1,0 +1,17 @@
+pandas
+streamlit
+matplotlib
+numpy
+seaborn
+Pillow
+mpld3
+hydralit_components
+torch
+torchaudio
+transformers
+sacremoses
+text_highlighter
+bio
+openai
+PyPDF2
+requests

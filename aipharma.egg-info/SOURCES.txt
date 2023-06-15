@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+./requirements/requirements.txt
+aipharma/__init__.py
+aipharma/utils.py
+aipharma.egg-info/PKG-INFO
+aipharma.egg-info/SOURCES.txt
+aipharma.egg-info/dependency_links.txt
+aipharma.egg-info/requires.txt
+aipharma.egg-info/top_level.txt

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aipharma"
+version = "0.0.1"
+authors = [
+  { name="Tan Quang Duong", email="tquangbk@gmail.com"},
+]
+description = "A package for AI-driven NLP in Pharmaceutical industry"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["./requirements/requirements.txt"]}
+
+[tool.setuptools]
+packages = ["aipharma"]
+
+[project.urls]
+"Homepage" = "https://github.com/tanquangduong"
