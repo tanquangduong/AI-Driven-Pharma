@@ -10,9 +10,10 @@
 `pip install -r .\path_to_requirements\requirements.txt`
 - Install required packages for developement\
 `pip install -r .\path_to_requirements\requirements-dev.txt`
-- Create your own OPENAI KEY and add to .env.local
-- Run app on terminal
+- Create **your own OPENAI KEY** and add to **.env.local** for text summary feature
+- Run app on terminal. **Note** that The first time you run the app, it will take a few minutes to load the model.
 `streamlit run 0_🏠_Home.py`
+
 
 ## Build and run Docker image
 ```
