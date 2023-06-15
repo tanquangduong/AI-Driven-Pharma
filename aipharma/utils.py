@@ -1,11 +1,15 @@
+import os
 import requests
 import streamlit as st
 from text_highlighter import text_highlighter
 import PyPDF2
 import openai
+from dotenv import load_dotenv
+
+load_dotenv(dotenv_path="./.env.local")
 
 # Set your OpenAI API key
-openai.api_key = "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"  # please use your own OpenAI key
+openai.api_key = os.environ.get("OPENAI_KEY", "")
 
 
 def query_plain(text, url="http://bern2.korea.ac.kr/plain"):

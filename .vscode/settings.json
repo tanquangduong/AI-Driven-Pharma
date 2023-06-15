@@ -5,7 +5,7 @@
     },
     "python.linting.pycodestyleEnabled": true,
     "python.linting.pycodestyleArgs": [
-        "--max-line-length=120"
+        "--max-line-length=150"
     ],
     "python.linting.pylintEnabled": true,
     "python.formatting.provider": "none",

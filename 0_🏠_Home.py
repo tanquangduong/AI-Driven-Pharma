@@ -42,7 +42,7 @@ if "biogpt_model" not in st.session_state:
     model = BioGptForCausalLM.from_pretrained("microsoft/biogpt")
     st.session_state["biogpt_model"] = model
 
-st.write("# Welcome to PharmaGPT demo app! 👋")
+st.write("# Welcome to AI In Pharma app! 👋")
 
 # st.sidebar.success("Select a demo above.")
 
