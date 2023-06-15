@@ -4,12 +4,7 @@ import streamlit as st
 from text_highlighter import text_highlighter
 import PyPDF2
 import openai
-from dotenv import load_dotenv
-
-load_dotenv(dotenv_path="./.env.local")
-
-# Set your OpenAI API key
-openai.api_key = os.environ.get("OPENAI_KEY", "")
+import dotenv
 
 
 def query_plain(text, url="http://bern2.korea.ac.kr/plain"):
@@ -41,6 +36,11 @@ def read_pdf(pdf_path):
 
 
 def summarize_text(text_content):
+    # Set your OpenAI API key
+
+    config = dotenv.dotenv_values(".env.local")
+    openai.api_key = config['OPENAI_API_KEY']
+
     # Reduce the length of text_content
     shortened_text = text_content[:4000]  # Adjust the desired length
 
