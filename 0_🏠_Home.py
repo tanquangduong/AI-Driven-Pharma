@@ -11,7 +11,7 @@ from transformers import BioGptTokenizer, BioGptForCausalLM
 company_logo = Image.open("./figs/AI-driven-Solutions.png")
 pharmaGPT_logo = Image.open("./figs/AI-In-Pharma.png")
 
-st.set_page_config(page_title="AI in Pharma", page_icon="🚀", layout="centered")
+st.set_page_config(page_title="AI Driven Pharma", page_icon="🚀", layout="centered")
 st.sidebar.image(company_logo, use_column_width=True)
 st.sidebar.markdown(
     "<h1 style='text-align: center; color: grey;'> Dr. Tan Quang Duong </h1>",
