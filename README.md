@@ -26,7 +26,7 @@ This app uses **latest AI-driven solutions** to **reduce the time needed** for *
 `streamlit run 0_🏠_Home.py`
 
 
-## Build and run Docker image
+## :white_check_mark: Build and run Docker image
 ```
 # build docker image
 docker build . -t ai-pharma-app
@@ -35,7 +35,7 @@ docker build . -t ai-pharma-app
 docker run -p 8501:8501 -d ai-pharma-app 
 ```
 
-## Build with docker-compse
+## :white_check_mark: Build with docker-compse
 ```
 # Run docker-compose
 docker-compse up --build -d
@@ -44,7 +44,7 @@ docker-compse up --build -d
 docker-compse down
 ```
 
-## Models and Implementations
+## :white_check_mark: Models and Implementations
 - [**BioGPT**](https://github.com/microsoft/BioGPT) of **Microsoft Research** for biomedical text generation Q/A
 - [**BioGPT implementation**](https://huggingface.co/microsoft/biogpt) by **Transformers** library of **Hugging Face**
 - [**BERN2**](http://bern2.korea.ac.kr) **API** by ***DMIS lab** of Korea University for **Name Entity Recognition**(**NER**) based on the answer of BioGPT
@@ -54,7 +54,7 @@ docker-compse down
   - Model GPT 3.5
   - Limitation of around 4000 token for summarization task
             
-## Datasets
+## :white_check_mark: Datasets
 - **[BC5CDR](https://huggingface.co/datasets/tner/bc5cdr)**: dataset for chemical-disease-relation extraction task which consists of 500/500/500 documents as the training/validation/testset
 - **[KD-DTI](https://tdcommons.ai/multi_pred_tasks/dti/)**: dataset for drug-target-interaction,consisting of 12k/1k/1.3k documents as the train/validation/test set
 - **[DDI](https://github.com/isegura/DDICorpus)** dataset for drug-drug-interaction task,consisting of 792 texts selected from the Drug Bank database and other 233 Medline abstracts.
