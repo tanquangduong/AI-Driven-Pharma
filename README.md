@@ -2,7 +2,7 @@
 :tada:  Build AI-driven NLP application for pharmaceutical industry
 
 # Objective
-This app uses **:green[latest AI-driven solutions]** to **:green[reduce the time needed]** for **:green[edivent generation]**, and **:green[drug approval process]** in pharmaceutical industry. The objectives are multiple:
+This app uses **latest AI-driven solutions** to **reduce the time needed** for **edivent generation**, and **drug approval process** in pharmaceutical industry. The objectives are multiple:
 - **Text mining and knowledge discovery** from **biomedical literatures**
 - **Summarizing and tracking** changing **regulatory documents**, i.e. Food and Drug Administration(**FDA**), European Medicines Agency(**EMA**), etc.
 - **End-to-End relation extraction** for biomedical entities
